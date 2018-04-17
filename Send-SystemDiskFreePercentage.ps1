@@ -8,9 +8,9 @@ param(
     $ViewOnly,
 
     [Parameter(Mandatory=$false)]
-    [ValidateSet('eu-west-1','ap-southeast-1','ap-southeast-2','eu-central-1','ap-northeast-2','ap-northeast-1','us-east-1','sa-east-1','us-west-1','us-west-2')]
+    [ValidateSet('eu-west-1','ap-southeast-1','ap-southeast-2','eu-central-1','ap-northeast-2','ap-northeast-1','us-east-1','us-east-2','sa-east-1','us-west-1','us-west-2')]
     [String]
-    $Region = 'us-west-2'
+    $Region = 'us-east-2'
 )
   
 process {
